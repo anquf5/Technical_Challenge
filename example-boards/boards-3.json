@@ -1,0 +1,22 @@
+{
+  "boards": [
+    {
+      "name": "V2M-Musca-S1",
+      "vendor": "Arm",
+      "core": "Cortex-M33",
+      "has_wifi": false
+    },
+	{
+      "name": "MCB4300",
+      "vendor": "Keil",
+      "core": "Cortex-M0",
+      "has_wifi": false
+    },
+	{
+      "name": "MCB4300",
+      "vendor": "Keil",
+      "core": "Cortex-M4",
+      "has_wifi": false
+    }
+  ]
+}
