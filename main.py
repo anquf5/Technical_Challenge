@@ -24,7 +24,10 @@ def get_all_boards(folder):
             continue
 
         for d in data['boards']:
-            boards.append(d)
+            if d['vendor'] is None or d['name'] is None:
+                continue
+            else:
+                boards.append(d)
 
         f.close()
 
